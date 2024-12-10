@@ -3,84 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site completo sobre os carros da BYD com informações detalhadas e fotos impressionantes.">
+    <meta name="keywords" content="BYD, carros elétricos, automóveis BYD, sustentabilidade, inovação BYD">
     <title>Carros BYD - Inovação e Sustentabilidade</title>
     <style>
+        /* Estilos básicos */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
         }
         header {
-            background-color: #003366;
+            background: linear-gradient(90deg, #0052cc, #00b8d9);
             color: #fff;
-            text-align: center;
             padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
         }
         nav {
-            background-color: #005599;
+            background: #003f88;
+            color: #fff;
+            padding: 10px;
             display: flex;
             justify-content: center;
-            padding: 10px;
+            gap: 20px;
         }
         nav a {
             color: #fff;
-            margin: 0 15px;
             text-decoration: none;
+            font-weight: bold;
         }
         section {
             padding: 20px;
         }
-        .modelos img {
-            max-width: 100%;
-            height: auto;
+        .car-model {
+            margin: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .car-model img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin-right: 20px;
         }
         footer {
-            background-color: #003366;
+            background: #003f88;
             color: #fff;
             text-align: center;
             padding: 10px;
-            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Carros BYD</h1>
-        <p>Inovação e Sustentabilidade em Movimento</p>
+        <h1>Carros BYD - Inovação e Sustentabilidade</h1>
+        <p>Conheça tudo sobre os carros da BYD, líder em tecnologia e veículos elétricos.</p>
     </header>
     <nav>
-        <a href="#introducao">Introdução</a>
-        <a href="#modelos">Modelos</a>
-        <a href="#tecnologia">Tecnologia</a>
+        <a href="#sobre">Sobre a BYD</a>
+        <a href="#modelos">Modelos de Carros</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
         <a href="#contato">Contato</a>
     </nav>
-    <section id="introducao">
+    <section id="sobre">
         <h2>Sobre a BYD</h2>
-        <p>A BYD é uma empresa líder em inovação automotiva, conhecida por seus veículos elétricos e tecnologias sustentáveis.</p>
+        <p>A BYD (Build Your Dreams) é uma empresa global dedicada a proporcionar soluções inovadoras e sustentáveis. Fundada em 1995, a empresa rapidamente se tornou líder em energia limpa e mobilidade elétrica. Com sua linha de veículos elétricos e híbridos, a BYD busca transformar o transporte em algo mais ecológico.</p>
     </section>
     <section id="modelos">
         <h2>Modelos de Carros</h2>
-        <div class="modelos">
-            <h3>BYD Han EV</h3>
-            <img src="https://via.placeholder.com/600x300" alt="BYD Han EV">
-            <p>O BYD Han EV combina luxo e alta tecnologia com uma autonomia impressionante.</p>
-
-            <h3>BYD Tang EV</h3>
-            <img src="https://via.placeholder.com/600x300" alt="BYD Tang EV">
-            <p>O SUV elétrico premium com espaço e desempenho excepcionais.</p>
-        </div>
+        <article class="car-model">
+            <img src="https://via.placeholder.com/300" alt="Modelo BYD">
+            <div>
+                <h3>BYD Han</h3>
+                <p>O sedã elétrico premium da BYD. Combina desempenho excepcional com luxo e tecnologia avançada. O Han oferece uma experiência de direção inigualável, com alcance de até 605 km por carga.</p>
+            </div>
+        </article>
+        <article class="car-model">
+            <img src="https://via.placeholder.com/300" alt="Modelo BYD">
+            <div>
+                <h3>BYD Tang</h3>
+                <p>Um SUV elétrico que redefine o segmento. Espaço, conforto e potência se unem para criar um veículo perfeito para famílias e aventureiros.</p>
+            </div>
+        </article>
     </section>
-    <section id="tecnologia">
-        <h2>Tecnologias e Inovações</h2>
-        <p>A BYD é pioneira em baterias de lítio e tecnologias sustentáveis, incluindo painéis solares e soluções de energia renovável.</p>
+    <section id="sustentabilidade">
+        <h2>Sustentabilidade</h2>
+        <p>A BYD está comprometida com a sustentabilidade, investindo em tecnologias que reduzem emissões de carbono e promovem a eficiência energética. Seus carros elétricos utilizam baterias de lítio-ferro-fosfato, consideradas mais seguras e ecológicas.</p>
     </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco para mais informações sobre os veículos BYD.</p>
-        <p>Email: contato@byd.com | Telefone: (11) 9999-9999</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 BYD Brasil. Todos os direitos reservados.</p>
+    <footer id="contato">
+        <p>© 2024 BYD Motors - Todos os direitos reservados.</p>
+        <p>Para mais informações, visite o site oficial: <a href="https://www.byd.com" target="_blank">www.byd.com</a></p>
     </footer>
 </body>
 </html>
